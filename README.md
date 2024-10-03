@@ -22,9 +22,8 @@ Make sure you have the following installed on your system:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-nodejs-repo.git
-   cd your-nodejs-repo
-   ```
+      git clone https://github.com/your-username/your-nodejs-repo.git
+      cd your-nodejs-repo
 2. Install the necessary dependencies:
    ```bash
    npm start
@@ -32,9 +31,10 @@ Make sure you have the following installed on your system:
 
 ## Running Locally
 To run the application on your local machine without Docker, use the following command:
- ```bash
-    npm start
-  ```
+   ```bash
+   npm start
+   ```
+
 This will start a web server on http://localhost:3000 that returns "Hello World".
 
 ## Building and Running with Docker
@@ -42,17 +42,20 @@ This will start a web server on http://localhost:3000 that returns "Hello World"
 If you prefer to run the application inside a Docker container, follow these steps:
   1. Build the Docker image:
   2. Run the Docker container:
-     ```bash
-     docker run -d -p 3000:3000 --name running-node-app node-app
+   ```bash
+   docker run -d -p 3000:3000 --name running-node-app node-app
+   ```
   3. Open your browser or use curl to visit http://localhost:3000 and you should see "Hello World".
   4. To stop and remove the running container:
      ```bash
      docker stop running-node-app
-     docker rm running-node-app  
+     docker rm running-node-app
+     ```
 
 ## Jenkins Pipeline Example  
-  You can use Jenkins to automate the build and deployment of this application with Docker. Here's an example pipeline:
-    ```bash
+  You can use Jenkins to automate the build and deployment of this application with Docker. Here's an example pipeline:  
+  
+      ```bash
          pipeline {
             agent any
             stages {
@@ -85,12 +88,12 @@ If you prefer to run the application inside a Docker container, follow these ste
                 }
             }
         }
-        ```
 
 This pipeline will build and run the application inside a Docker container and clean up the container after the build is complete.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-  bash```
+## License  
+
+This project is licensed under the MIT License. See the LICENSE file for details.  
+  ```bash
   Vous pouvez copier et coller ce texte dans votre fichier `README.md` pour votre projet. N'oubliez pas de remplacer les sections personnalisées comme `your-username` et `your-nodejs-repo` avec les informations de votre dépôt.
-  ```
+
