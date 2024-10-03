@@ -93,7 +93,4 @@ This pipeline will build and run the application inside a Docker container and c
 
 ## License  
 
-This project is licensed under the MIT License. See the LICENSE file for details.  
-  ```bash
-  Vous pouvez copier et coller ce texte dans votre fichier `README.md` pour votre projet. N'oubliez pas de remplacer les sections personnalisées comme `your-username` et `your-nodejs-repo` avec les informations de votre dépôt.
-
+This project is licensed under the MIT License. See the LICENSE file for details.
