@@ -1,0 +1,28 @@
+{
+  "name": "jenkins-docker",
+  "version": "1.0.0",
+  "description": "Node.js Hello World App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "server": {
+    "port": 3008
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sialorama/node-jenkins-docker.git"
+  },
+  "keywords": [
+    "node",
+    "jenkins",
+    "docker"
+  ],
+  "author": "sialorama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sialorama/node-jenkins-docker/issues"
+  },
+  "homepage": "https://github.com/sialorama/node-jenkins-docker#readme"
+  
+}
